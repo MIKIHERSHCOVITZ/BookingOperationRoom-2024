@@ -25,7 +25,7 @@ This project is an Operation Room Booking System. It includes both backend (Djan
 To clone the repository, run the following command in your terminal:
 
 ```bash
-git clone <your-repository-url>
+git clone <https://github.com/MIKIHERSHCOVITZ/operation-room-booking.git>
 ```
 
 ### 2. Start Backend Setup
