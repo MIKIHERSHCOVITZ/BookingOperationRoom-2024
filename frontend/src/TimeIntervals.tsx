@@ -6,7 +6,6 @@ import { TimeIntervalsProps } from './interfaces';
 /// this component manage the time intervals in the scrolling
 /// as part of the ui to make it simpler and nice to see I am showing only the hours from 06:00 am to 22:00 pm in 30 minutes intervals
 const TimeIntervals: React.FC<TimeIntervalsProps> = ({ schedule, date, selectedTime, selectedBooking, onSelectTime }) => {
-    console.log("Rendering TimeIntervals with schedule:", schedule);
 
     /// rendering the time intervals
     const renderTimeIntervals = () => {

@@ -44,7 +44,6 @@ const CalendarView = () => {
             const fetchScheduleData = async () => {
                 try {
                     const scheduleData = await fetchSchedule(selectedRoom.id);
-                    console.log("Fetched schedule data:", scheduleData);
                     setSchedule(Array.isArray(scheduleData) ? scheduleData : []);
                 } catch (err) {
                     err instanceof Error ? setError(err.message) : setError('Unknown error occurred');
@@ -85,7 +84,6 @@ const CalendarView = () => {
                 await bookRoom(normalizedDate, selectedTime, selectedRoom.id);
                 setFeedback('Room booked successfully');
                 const updatedSchedule = await fetchSchedule(selectedRoom.id);
-                console.log("Updated schedule after booking:", updatedSchedule);
                 setSchedule(Array.isArray(updatedSchedule) ? updatedSchedule : []);
             }
         }
@@ -98,7 +96,6 @@ const CalendarView = () => {
             setFeedback('Booking canceled successfully');
             setSelectedBooking(null); // Clear the selected booking
             const updatedSchedule = await fetchSchedule(selectedRoom.id);
-            console.log("Updated schedule after canceling:", updatedSchedule);
             setSchedule(Array.isArray(updatedSchedule) ? updatedSchedule : []);
         }
     };
@@ -134,7 +131,6 @@ const CalendarView = () => {
                 <BookingForm onBookingSuccess={() => {
                     if (selectedRoom) {
                         fetchSchedule(selectedRoom.id).then(schedule => {
-                            console.log("Updated schedule after booking (from BookingForm):", schedule);
                             setSchedule(Array.isArray(schedule) ? schedule : []);
                         });
                     }
