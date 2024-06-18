@@ -1,0 +1,52 @@
+.room-management {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.room-management h3 {
+    margin-bottom: 10px;
+}
+
+.room-management input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.room-management button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.room-management button:hover {
+    background-color: #0056b3;
+}
+
+.room-management ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.room-management ul li {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.room-management .feedback {
+    margin-top: 10px;
+}
+
+.room-management .feedback.success {
+    color: #186b1e;
+}
+
+.room-management .feedback.error {
+    color: red;
+}
