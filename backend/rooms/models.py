@@ -15,13 +15,7 @@ class Booking(models.Model):
 
 
 
-# TODO exactly how to run the project -
-#    include create db and migrations,
-#    run front and back commands,
-#    explanation on functualety,
-#    how to creat first 5 rooms using manager
-#    how to run unit tests using manager
-#    how to run migrations?
 # TODO check unit tests
 # TODO add picture to readme
 # TODO change in readme to my url
+# TODO delete db
