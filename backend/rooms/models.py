@@ -12,10 +12,3 @@ class Booking(models.Model):
     date = models.DateField()
     time = models.TimeField()
 
-
-
-
-# TODO check unit tests
-# TODO add picture to readme
-# TODO change in readme to my url
-# TODO delete db
