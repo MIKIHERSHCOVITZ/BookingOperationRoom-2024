@@ -12,6 +12,8 @@ This project is an Operation Room Booking System. It includes both backend (Djan
 6. **Add Room**: User can add new rooms to the system.
 7. **Delete Room**: User can delete existing rooms from the system.
 
+Image of the website is attached at the bottom
+
 ## Prerequisites
 
 - Python 3.8+
@@ -127,3 +129,7 @@ The backend runs on http://127.0.0.1:8000/ by default.
 
 The frontend runs on http://127.0.0.1:3000/ by default.
 
+
+### 12. Website image
+
+![Example Image](images/website.png)
