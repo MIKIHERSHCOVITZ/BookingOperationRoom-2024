@@ -27,12 +27,12 @@ Image of the website is attached at the bottom
 To clone the repository, run the following command in your terminal:
 
 ```bash
-git clone <https://github.com/MIKIHERSHCOVITZ/operation-room-booking.git>
+git clone https://github.com/MIKIHERSHCOVITZ/operation-room-booking.git
 ```
 
 ### 2. Start Backend Setup
 
-Navigate to the backend directory
+Open your IDE and navigate to the backend directory
 
 ```bash
 cd operation-room-booking/backend
@@ -40,7 +40,7 @@ cd operation-room-booking/backend
 
 ### 3. Create and Activate Virtual Environment
 
-To create virtual environment please open your IDE and run the following commands:
+To create virtual environment please run the following commands:
 
 ```bash
 python -m venv venv
