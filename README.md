@@ -133,3 +133,4 @@ The frontend runs on http://127.0.0.1:3000/ by default.
 ### 12. Website image
 
 ![Example Image](images/website.png)
+
